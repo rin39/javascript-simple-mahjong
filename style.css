@@ -1,0 +1,46 @@
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+html {
+  background-color: #303030;
+  color: #ffffff;
+  font-size: 20pt;
+}
+
+button {
+  background-color: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+
+.indicators {
+  margin-bottom: 25px;
+}
+
+h1 {
+  color: #63ff9c;
+}
+
+#player,
+#shimocha,
+#toimen,
+#kamicha {
+  color: #a3ffff;
+}
+
+.discard {
+  color: #f1c2ff;
+}
+
+#oya {
+  color: #fffcc2;
+}
+
+.tile-button {
+  border-color: #c0f0fa;
+}

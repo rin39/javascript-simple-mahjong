@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>麻雀</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h1>麻雀</h1>
+    <div class="indicators">
+      <p>牌山 [<span id="counter"></span>]</p>
+      <p>ドラ [<span id="dora-indicator"></span>]</p>
+      <button id="uradora-show">裏ドラ</button>
+      <p id="uradora-indicator" class="hidden"></p>
+    </div>
+    <div class="hand">
+      <button class="tile-button"></button>
+      <button class="tile-button"></button>
+      <button class="tile-button"></button>
+      <button class="tile-button"></button>
+      <button class="tile-button"></button>
+      <button class="tile-button"></button>
+      <button class="tile-button"></button>
+      <button class="tile-button"></button>
+      <button class="tile-button"></button>
+      <button class="tile-button"></button>
+      <button class="tile-button"></button>
+      <button class="tile-button"></button>
+      <button class="tile-button"></button>
+      <button class="tile-button"></button>
+    </div>
+    <div class="discard">
+      <p><span id="oya"></span>プレーヤー <span id="player"></span></p>
+      <p><span id="oya"></span>下家 <span id="shimocha"></span></p>
+      <p><span id="oya"></span>対面 <span id="toimen"></span></p>
+      <p><span id="oya"></span>上家 <span id="kamicha"></span></p>
+    </div>
+  </body>
+</html>
